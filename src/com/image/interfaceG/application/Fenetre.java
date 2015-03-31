@@ -37,9 +37,11 @@ public class Fenetre extends Application{
 		VBox root = new VBox();
 		root.getChildren().add(cross);
 		
-		Scene scene = new Scene(root, 500,500);
+		Scene scene = new Scene(root, 840,576);
 		stage.setScene(scene);
 		stage.setTitle("sdlsdfg");
+		
+		scene.getStylesheets().add("AppStyle.css");
 		
 		stage.show();		
 	}
